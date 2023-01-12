@@ -10,9 +10,9 @@ const Hero = () => {
 
                 <p className='mt-2 lg:max-w-lg font-Poppins font-medium text-lg text-[#B8B8B8]'>Its simple and its free. Play your part in reducing Carbon Footprint and help Mother Nature to sustain its beauty. So what are you waiting for ? Lets ride together</p>
 
-                <div className='mt-16'>
+                <div className='mt-16 mb-4 lg:mb-0 flex flex-col md:block'>
                     <button className='font-Poppins px-10 py-5 bg-[#FDD835] text-white text-lg lg:text-xl font-medium rounded-lg'>Earn With Share</button>
-                    <button className='font-Poppins ml-9 px-10 py-5 text-[#FDD835] border border-[#FDD835] text-lg lg:text-xl font-medium rounded-lg'>Download App</button>
+                    <button className='font-Poppins mt-3 md:mt-0 md:ml-9 px-10 py-5 text-[#FDD835] border border-[#FDD835] text-lg lg:text-xl font-medium rounded-lg'>Download App</button>
                 </div>
             </div>
             <div>

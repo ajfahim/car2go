@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import BestAdminPanel from '../components/BestAdminPanel/BestAdminPanel'
 import Hero from '../components/Hero/Hero'
 import Logos from '../components/Logos/Logos'
 import Navbar from '../components/NavBar/Navbar'
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Hero></Hero>
         <Logos></Logos>
         <RideSharePlatform></RideSharePlatform>
+        <BestAdminPanel></BestAdminPanel>
       </main>
 
       <footer className="">

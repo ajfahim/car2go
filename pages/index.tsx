@@ -9,6 +9,7 @@ import Logos from '../components/Logos/Logos'
 import Navbar from '../components/NavBar/Navbar'
 import Newsletter from '../components/Newsletter/Newsletter'
 import RideSharePlatform from '../components/RideSharePlatform/RideSharePlatform'
+import Testimonials from '../components/Testimonials/Testimonials'
 import Work from '../components/Work/Work'
 
 const Home: NextPage = () => {
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
         <Work></Work>
         <BestAdminPanel></BestAdminPanel>
         <CarToGoBenifit></CarToGoBenifit>
+        <Testimonials></Testimonials>
         <Newsletter></Newsletter>
         <Footer></Footer>
       </main>

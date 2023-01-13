@@ -6,6 +6,7 @@ import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
 import Logos from '../components/Logos/Logos'
 import Navbar from '../components/NavBar/Navbar'
+import Newsletter from '../components/Newsletter/Newsletter'
 import RideSharePlatform from '../components/RideSharePlatform/RideSharePlatform'
 import Work from '../components/Work/Work'
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
         <RideSharePlatform></RideSharePlatform>
         <Work></Work>
         <BestAdminPanel></BestAdminPanel>
+        <Newsletter></Newsletter>
         <Footer></Footer>
       </main>
 

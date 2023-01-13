@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero'
 import Logos from '../components/Logos/Logos'
 import Navbar from '../components/NavBar/Navbar'
 import RideSharePlatform from '../components/RideSharePlatform/RideSharePlatform'
+import Work from '../components/Work/Work'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Hero></Hero>
         <Logos></Logos>
         <RideSharePlatform></RideSharePlatform>
+        <Work></Work>
         <BestAdminPanel></BestAdminPanel>
       </main>
 

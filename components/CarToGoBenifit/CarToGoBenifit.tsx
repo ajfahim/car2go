@@ -28,7 +28,7 @@ const CarToGoBenifit = () => {
     return (
         <div className='text-center my-20'>
             <h3 className='font-Poppins font-medium text-4xl text-[#5A5A5A]'>Car2Go Benifit</h3>
-            <div className='mt-10 grid lg:grid-cols-3 gap-5 px-[10%]'>
+            <div className='mt-10 grid lg:grid-cols-3 gap-5 px-[10%] justify-items-center'>
                 {
                     cards.map(card => <BenifitCard icon={card.icon} heading={card.heading} paragraph={card.paragraph} key={card.id}></BenifitCard>)
                 }
